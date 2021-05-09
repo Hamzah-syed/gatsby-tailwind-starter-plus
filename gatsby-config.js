@@ -15,6 +15,9 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
+
+    // Preact
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
