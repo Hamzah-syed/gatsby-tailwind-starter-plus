@@ -7,7 +7,6 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     resolve: {
       fallback: {
         crypto: false,
-
         "crypto-browserify": require.resolve("crypto-browserify"),
       },
     },

@@ -11,6 +11,14 @@ const { theme } = resolveConfig(tailwindConfig)
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Gatsby tailwindcss starter plus`,
+    description: `Gatsby and Tailwindcss starter with additional features such as Typescript,Jest and Preact`,
+    author: {
+      name: "Hamzah Syed",
+      email: "hamzah.syed17@gmail.com",
+    },
+  },
   plugins: [
     `gatsby-plugin-offline`,
     `gatsby-plugin-typescript`,
