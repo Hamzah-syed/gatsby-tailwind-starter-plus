@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <Fragment>
       <div className="mx-auto">
-        <Seo title="Tailwind Starter Plus" />
+        <Seo title="GatsWind Starter Plus" />
         <div className="flex h-screen bg-gray-50 flex-col justify-center">
           <StaticImage
             className="object-none object-center mx-auto"

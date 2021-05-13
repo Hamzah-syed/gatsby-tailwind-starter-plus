@@ -39,10 +39,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `gatsby-tailwindcss-starter-plus`,
+        short_name: `gatswind`,
         start_url: `/`,
         background_color: theme.colors.white,
+        theme_color: "1491e5",
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
