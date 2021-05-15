@@ -6,7 +6,7 @@ const NotFound = () => {
     <Fragment>
       <div>
         <Seo title="Page Not Found" />
-        <h1>hamzah</h1>
+        <h1 className="text-center py-20">PAGE NOT FOUND</h1>
       </div>
     </Fragment>
   )
