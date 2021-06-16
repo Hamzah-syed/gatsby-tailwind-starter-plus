@@ -16,8 +16,6 @@
     "clean": "gatsby clean",
     "test": "jest",
     "test:watch": "jest --watch",
-    "build:lambda": "netlify-lambda build src/lambda",
-    "start:lambda": "netlify-lambda serve src/lambda"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
